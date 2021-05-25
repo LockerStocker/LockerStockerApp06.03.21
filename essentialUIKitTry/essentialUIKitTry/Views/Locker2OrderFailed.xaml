@@ -57,7 +57,7 @@
                     LineHeight="{OnPlatform Android=1.25,
                                             Default=-1}"
                     Style="{StaticResource DescriptionLabelStyle}"
-                    Text="You Can't pick Locker 2. Please select another Locker"
+                    Text="You Can't pick Locker {lockerId}. Please select another Locker"
                     TextColor="#333942"
                     VerticalTextAlignment="Center" />
             </StackLayout>

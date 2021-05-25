@@ -32,7 +32,7 @@ namespace essentialUIKitTry.ViewModels
         /// <summary>
         /// Initializes a new instance of the <see cref="Locker2OrderFailedViewModel" /> class.
         /// </summary>
-        public Locker2OrderFailedViewModel()
+        public Locker2OrderFailedViewModel(string lockerId)
         {
         }
 

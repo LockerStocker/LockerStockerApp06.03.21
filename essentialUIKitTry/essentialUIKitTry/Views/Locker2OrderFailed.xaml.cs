@@ -14,10 +14,12 @@ namespace essentialUIKitTry.Views
         /// <summary>
         /// Initializes a new instance of the <see cref="Locker2OrderFailed" /> class.
         /// </summary>
-        public Locker2OrderFailed()
+        string lockerId;
+        public Locker2OrderFailed(string lockerId)
         {
             this.InitializeComponent();
             this.BindingContext = Locker2OrderFailedViewModel.BindingContext;
+            this.lockerId = lockerId;
         }
         void Back_To_Menu(object sender, System.EventArgs e)
         {

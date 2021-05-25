@@ -1,22 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="essentialUIKitTry.ChooseALocker">
+             x:Class="essentialUIKitTry.ChooseALocker"
+             xmlns:viewModel="clr-namespace:essentialUIKitTry.ViewModels">
+
+
+    <!--  Binding context for login page  -->
+    <ContentPage.BindingContext>
+        <viewModel:ChooseALockerViewModel />
+    </ContentPage.BindingContext>
+    
     <StackLayout >
         <Label Text="Lockers" HorizontalOptions="Center" FontSize="40" FontFamily="Arial" />
         <Label Text=" "/>
         <Label Text="Please Choose Your Locker:" FontSize="25" FontFamily="Arial"  />
         <Label Text=" "/>
 
-        <Button Text="Locker 1" WidthRequest="250" BackgroundColor="green" TextColor="white"
-            HorizontalOptions="Center" Clicked="Locker1_Clicked" ></Button>
+        <StackLayout x:Name="MyButtons"/>
+        <!-- <Button Text="Locker 1" WidthRequest="250" BackgroundColor="{Binding Color1}" TextColor="white"
+            HorizontalOptions="Center" Clicked="Locker1_ClickedAsync" ></Button>
         <Label Text=" "/>
-        <Button Text="Locker 2" WidthRequest="250" BackgroundColor="Red" TextColor="white"
+        <Button Text="Locker 2" WidthRequest="250" BackgroundColor="{Binding Color2}" TextColor="white"
             HorizontalOptions="Center" Clicked="Locker2_Clicked" ></Button>
         <Label Text=" "/>
-        <Button Text="Locker 3" WidthRequest="250" BackgroundColor="green" TextColor="white"
+        <Button Text="Locker 3" WidthRequest="250" BackgroundColor="{Binding Color3}" TextColor="white"
             HorizontalOptions="Center" Clicked="Locker3_Clicked"></Button>
-        <Label Text=" "/>
+        <Label Text=" "/> -->
 
 
 

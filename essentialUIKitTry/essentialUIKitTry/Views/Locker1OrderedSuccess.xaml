@@ -38,14 +38,14 @@
                         Margin="0,40,0,0"
                         FontSize="20"
                         Style="{StaticResource TitleLabelStyle}"
-                        Text="LOCKER ID: 1" />
+                        Text="LOCKER ID: {locker_id}" />
 
                     <!--  Payment description label  -->
                     <Label
                         Margin="17,8"
                         FontFamily="Montserrat-Medium"
                         Style="{StaticResource TitleLabelStyle}"
-                        Text="You have ordered successfully locker 1. Enjoy!" />
+                        Text="You have ordered successfully locker {locker_id}. Enjoy!" />
 
                     <button:SfButton
                         Margin="0,24"
