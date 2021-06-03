@@ -53,6 +53,7 @@
                         Command="{Binding TrackOrderCommand}"
                         Style="{StaticResource GradientButtonStyle}"
                         Text="TRACK YOUR ORDER"
+                        Clicked="OrderProfileClicked"
                         VerticalOptions="Start"
                         WidthRequest="245" />
 

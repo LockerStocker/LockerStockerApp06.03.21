@@ -20,5 +20,9 @@ namespace essentialUIKitTry.Views
             this.InitializeComponent();
             this.BindingContext = PaymentViewModel.BindingContext;
         }
+        void OrderProfileClicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LockerProfilePage());
+        }
     }
 }

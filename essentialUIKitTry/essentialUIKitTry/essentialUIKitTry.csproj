@@ -27,6 +27,7 @@
     <None Remove="Data\transaction.json" />
     <None Remove="Images\NoItem.svg" />
     <None Remove="Images\PaymentSuccess.svg" />
+    <None Remove="Images\SomethingWentWrong.svg" />
     <None Remove="Resources\Fonts\Montserrat-Bold.ttf" />
     <None Remove="Resources\Fonts\Montserrat-Medium.ttf" />
     <None Remove="Resources\Fonts\Montserrat-Regular.ttf" />
@@ -40,6 +41,7 @@
     <EmbeddedResource Include="Data\transaction.json" />
     <EmbeddedResource Include="Images\NoItem.svg" />
     <EmbeddedResource Include="Images\PaymentSuccess.svg" />
+    <EmbeddedResource Include="Images\SomethingWentWrong.svg" />
     <EmbeddedResource Include="Resources\Fonts\Montserrat-Bold.ttf" />
     <EmbeddedResource Include="Resources\Fonts\Montserrat-Medium.ttf" />
     <EmbeddedResource Include="Resources\Fonts\Montserrat-Regular.ttf" />
@@ -132,6 +134,9 @@
     <EmbeddedResource Update="Themes\LightTheme.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\InsideALockerImage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\Locker1OrderedSuccess.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -139,6 +144,9 @@
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Locker3OrderSuccess.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LockerProfilePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SimpleEmailEntry.xaml">
